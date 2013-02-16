@@ -1,0 +1,66 @@
+html {background-color: #696969; background-image:url('map2.jpg'); 
+background-repeat: no-repeat;
+background-size: cover; background-position: fixed;}
+body {background-color: white;
+	opacity: 0.95;
+	border: solid 1px #8b8989;  
+	width:85%;
+	height: 85%; 
+	margin: 5% auto;
+	text-align: justify;
+	color:rgba(255,255,255,0.5);
+	padding:25px 25px 25px 25px;}
+
+h1 {
+	font-size: 40pt; color: black; font-family: Roboto, sans-serif;
+	text-indent:50px;
+	}
+h2 {
+	font-size: 30pt; color: gray; font-family: Roboto, sans-serif;
+	text-indent:50px; 
+	}
+nav {
+	display: block; margin: auto; 
+	}
+nav li {
+	display: inline-block; 
+	margin: auto; 
+	/* For IE 7 */
+	zoom: 1; *display: inline;
+	}
+nav a {
+	text-decoration: none; 
+	background-color: #d3d3d3; 
+	margin: 4px 4px;
+	width: 200px; 
+	display: block; 
+	border-right: solid 2px #696969; 
+	/* For IE 7 */
+	zoom: 1; *display: inline;
+	}
+nav ul {
+	text-align: center; 
+	line-height: 45px;
+	}
+ul {
+	list-style-type:none;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	}
+li {
+	font-size: 16pt; color: black; font-family: Roboto, sans-serif; 
+	}
+a:link {
+	color:#000000;} /* unvisited link */
+a:hover,a:active {background-color: #f5f5f5}
+a:visited {
+	color:#696969;} /* visited link */
+#content {
+	font-size: 14pt;
+	color: black;
+	font-family: Roboto, sans-serif;
+	display: block;
+	margin: 5% 10% 5% 10%;
+	}
+
