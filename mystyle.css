@@ -1,14 +1,11 @@
 html {background-color: #696969; background-image:url('medmaploc.png'); 
-background-repeat: no-repeat;
-background-size: cover; background-position: fixed; }
+background-repeat: no-repeat; background-size: cover; height: 100%;}
 body {background-color: white;
 	opacity: 0.95;
 	border: solid 1px #8b8989;  
-	width:85%;
-	height: 85%; 
+	width:85%; 
 	margin: 5% auto;
 	text-align: justify;
-	color:rgba(255,255,255,0.5);
 	padding:25px 25px 25px 25px;}
 
 h1 {
