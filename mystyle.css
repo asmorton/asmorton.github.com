@@ -1,7 +1,6 @@
-html {background-color: #696969; background-image:url('map2.jpg'); 
+html {background-color: #696969; background-image:url('medmaploc.png'); 
 background-repeat: no-repeat;
-background-size: cover; background-position: fixed;
-/* For Safari */ background-size: 150% 150%; }
+background-size: cover; background-position: fixed; }
 body {background-color: white;
 	opacity: 0.95;
 	border: solid 1px #8b8989;  
