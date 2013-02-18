@@ -1,13 +1,19 @@
-html {background-color: #696969; background-image:url('medmaploc.png'); 
-background-repeat: no-repeat; background-size: cover; height: 100%;}
-body {background-color: white;
+html {
+	background-color: #696969; 
+	background-image:url('medmaploc.png'); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	height: 100%;
+	}
+body {
+	background-color: white;
 	opacity: 0.95;
 	border: solid 1px #8b8989;  
 	width:85%; 
 	margin: 5% auto;
 	text-align: justify;
-	padding:25px 25px 25px 25px;}
-
+	padding:25px 25px 25px 25px;
+	}
 h1 {
 	font-size: 40pt; color: black; font-family: Roboto, sans-serif;
 	text-indent:50px;
@@ -71,8 +77,6 @@ foot {
 	height: 50px;
 	position:fixed;
 	bottom: 0px;
-	opacity: none;
 	border: solid 1px #000000;
 	/* For Safari border: 0px; */
-	
 	}
