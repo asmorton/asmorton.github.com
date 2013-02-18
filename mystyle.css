@@ -22,8 +22,7 @@ nav {
 nav li {
 	display: inline-block; 
 	margin: auto; 
-	/* For IE 7 */
-	zoom: 1; *display: inline;
+	/* For IE 7 zoom: 1; *display: inline; */
 	}
 nav a {
 	text-decoration: none; 
@@ -32,9 +31,9 @@ nav a {
 	width: 200px; 
 	display: block; 
 	border-right: solid 2px #696969; 
-	/* For IE 7 */
-	zoom: 1; *display: inline;
+	/* For IE 7 zoom: 1; *display: inline; */
 	}
+	
 nav ul {
 	text-align: center; 
 	line-height: 45px;
@@ -74,6 +73,6 @@ foot {
 	bottom: 0px;
 	opacity: none;
 	border: solid 1px #000000;
-	/* For Safari */
-	border: 0px;
+	/* For Safari border: 0px; */
+	
 	}
