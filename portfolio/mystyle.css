@@ -4,6 +4,7 @@ html {
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	height: 100%;
+	background-attachment: fixed;
 	}
 body {
 	background-color: white;
@@ -64,6 +65,11 @@ a:visited {
 	font-family: Roboto, sans-serif;
 	display: block;
 	margin: 5% 10% 5% 10%;
+	}
+#line-separator {
+	height:1px;
+	color: black;
+	border-bottom:1px solid #313030;
 	}
 foot {
 	font-size: 13pt;
