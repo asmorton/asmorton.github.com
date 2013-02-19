@@ -77,6 +77,8 @@ foot {
 	height: 50px;
 	position:fixed;
 	bottom: 0px;
+	opacity: none;
 	border: solid 1px #000000;
 	/* For Safari border: 0px; */
+	
 	}
