@@ -32,6 +32,7 @@ nav li {
 	display: inline-block; 
 	margin: auto; 
 	font-size: 16pt;
+	font-weight: bold;
 	/* For IE 7 zoom: 1; *display: inline; */
 	}
 nav a {
@@ -65,7 +66,7 @@ a:visited {
 #content {
 	font-size: 14pt;
 	color: black;
-	font-family: 'Old Standard TT', serif;
+	font-family: 'junge', serif;
 	display: block;
 	margin: 5% 10% 5% 10%;
 	}
