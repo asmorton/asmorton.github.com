@@ -1,35 +1,51 @@
-html {background-color: #696969; background-image:url('map2.jpg'); 
-	background-repeat: no-repeat;
-	background-size: cover; height:100%}
-	
-body {background-color: white;
+html {
+	background-color: #696969; 
+	background-image:url('medmaploc.png'); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	height: 100%;
+	background-attachment: fixed;
+	}
+body {
+	background-color: white;
 	opacity: 0.95;
 	border: solid 1px #8b8989;  
-	width:85%;
-	height: 85%; 
+	width:85%; 
 	margin: 5% auto;
 	text-align: justify;
 	padding:25px 25px 25px 25px;
 	}
-
 h1 {
-	font-size: 40pt; color: black; font-family: Roboto, sans-serif;
+	font-size: 40pt; color: black; font-family: Old Standard TT, sans-serif;
 	text-indent:50px;
 	}
 h2 {
-	font-size: 30pt; color: gray; font-family: Roboto, sans-serif;
+	font-size: 30pt; color: gray; font-family: Junge, sans-serif;
 	text-indent:50px; 
 	}
+blockquote {font-style: italic;}
+h3 {
+	font-size: 20pt; color: gray; font-family: Junge, serif;
+	text-indent: 50px;}
 nav {
 	display: block; margin: auto; 
+	}
+nav li {
+	display: inline-block; 
+	margin: auto; 
+	font-size: 16pt;
+	/* For IE 7 zoom: 1; *display: inline; */
 	}
 nav a {
 	text-decoration: none; 
 	background-color: #d3d3d3; 
 	margin: 4px 4px;
 	width: 200px; 
+	display: block; 
 	border-right: solid 2px #696969; 
+	/* For IE 7 zoom: 1; *display: inline; */
 	}
+	
 nav ul {
 	text-align: center; 
 	line-height: 45px;
@@ -41,7 +57,7 @@ ul {
 	padding:0;
 	}
 li {
-	font-size: 16pt; color: black; font-family: Roboto, sans-serif; 
+	font-size: 14pt; color: black; font-family: 'junge', serif; 
 	}
 a:link {
 	color:#000000;} /* unvisited link */
@@ -51,15 +67,20 @@ a:visited {
 #content {
 	font-size: 14pt;
 	color: black;
-	font-family: Englebert, sans-serif;
+	font-family: Old Standard TT, serif;
 	display: block;
 	margin: 5% 10% 5% 10%;
 	}
-footer {
+
+#line-separator {
+	height:1px;
+	color: black;
+	border-bottom:1px solid #313030;
+	}
+foot {
 	font-size: 13pt;
 	color: white;
 	background-color: #696969;
-	font-family: Roboto, sans-serif;
 	left: 0px;
 	right: 0px;
 	text-align: right;
@@ -69,16 +90,7 @@ footer {
 	position:fixed;
 	bottom: 0px;
 	opacity: none;
-	/* For Safari border: font-size: 13pt;
-	color: white;
-	background-color: #696969;
-	left: 0px;
-	right: 0px;
-	text-align: right;
-	padding-right: 10px;
-	margin: 0px;
-	height: 50px;
-	position:fixed;
-	bottom: 0px;
-	opacity: none; */
+	border: solid 1px #000000;
+	/* For Safari border: 0px; */
+	
 	}

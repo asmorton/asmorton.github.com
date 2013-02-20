@@ -1,34 +1,37 @@
 html {
 	background-color: #696969; 
-	background-image:url('medmaploc.png'); 
+	background-image:url(medmaploc.png); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
-	height: 100%;
 	background-attachment: fixed;
 	}
 body {
 	background-color: white;
-	opacity: 0.95;
-	border: solid 1px #8b8989;  
+	opacity: 0.95;  
 	width:85%; 
 	margin: 5% auto;
 	text-align: justify;
 	padding:25px 25px 25px 25px;
 	}
+
 h1 {
-	font-size: 40pt; color: black; font-family: Roboto, sans-serif;
+	font-size: 40pt; color: black; font-family: 'Old Standard TT', sans-serif;
 	text-indent:50px;
 	}
 h2 {
-	font-size: 30pt; color: gray; font-family: Roboto, sans-serif;
+	font-size: 30pt; color: gray; font-family: 'Junge', sans-serif;
 	text-indent:50px; 
 	}
+h3 {
+	font-size: 20pt; color: gray; font-family: 'Junge', serif;
+	text-indent: 50px;}
 nav {
 	display: block; margin: auto; 
 	}
 nav li {
 	display: inline-block; 
 	margin: auto; 
+	font-size: 16pt;
 	/* For IE 7 zoom: 1; *display: inline; */
 	}
 nav a {
@@ -52,7 +55,7 @@ ul {
 	padding:0;
 	}
 li {
-	font-size: 16pt; color: black; font-family: Roboto, sans-serif; 
+	font-size: 14pt; color: black; font-family: 'junge', serif; 
 	}
 a:link {
 	color:#000000;} /* unvisited link */
@@ -62,10 +65,11 @@ a:visited {
 #content {
 	font-size: 14pt;
 	color: black;
-	font-family: Roboto, sans-serif;
+	font-family: 'Old Standard TT', serif;
 	display: block;
 	margin: 5% 10% 5% 10%;
 	}
+blockquote {font-style: italic;}
 #line-separator {
 	height:1px;
 	color: black;

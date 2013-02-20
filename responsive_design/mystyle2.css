@@ -17,9 +17,16 @@ body {
 
 h1 {
 	font-size: 50pt; color: black; font-family: Old Standard TT, serif;
-	text-indent:50px;
+	text-indent:50px; display: block;
 	}
-#content {}
+h2 {
+	font-size: 30pt; color: gray; font-family: Junge, serif;
+	text-indent:50px; }
+#content {font-size: 12pt;
+	color: black;
+	font-family: Junge, serif;
+	display: block;
+	margin: 5% 10% 5% 10%; }
 #line-separator {
 	height:1px;
 	color: black;
