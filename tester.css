@@ -12,6 +12,7 @@ body {
 	margin: 5% auto;
 	text-align: justify;
 	padding:25px 25px 25px 25px;
+	height: auto;
 	}
 
 h1 {
@@ -60,39 +61,37 @@ ul {
 li {
 	font-size: 14pt; color: black; font-family: 'junge', serif; 
 	}
+#image-right {
+	float: right;
+	position: relative;
+	width: 400px;
+	}
 a:link {
 	color:#000000;} /* unvisited link */
 a:hover,a:active {background-color: #f5f5f5}
 a:visited {
 	color:#708090;} /* visited link */
-#main {
+#image-left {
+	width: 400px;
+	height: 568px;
 	float: left;
-	font-size: 12pt;
-	width: 40%;
-	color: black;
-	font-family: 'belliza',sans-serif;
-	display: block;
-	margin: 5% 5% 5% 5%;
+	margin-left: 1em;
+	background-image: url(webster_disease.jpg);
+	background-repeat: no-repeat;
+	}
+#image-lowerleft {
+	width: 400px;
+	position: relative;
+	float: left;
+	margin-top: 500px;
 	}
 #content {
-	float: left;
-	font-size: 14pt;
-	width: 75%;
+	font-size: 12pt;
 	color: black;
 	font-family: 'belliza',sans-serif;
 	display: block;
 	margin: 5% 10% 5% 10%;
 	}
-#sidebar {
-		float:right;
-		width: 30%;
-		padding:10px;
-		border: 1px solid;
-		margin: 4% 4% 4% 4%;
-		}
-img {
-  max-width: 100%;
-}
 body:after {
     content: ".";
     display: block;
@@ -122,7 +121,7 @@ footer {
 	border: solid 1px #000000;
 	/* For Safari border: 0px; */
 	}
-@media screen and (max-width: 300px) {
+/*@media screen and (max-width: 300px) {
   body,
   footer {
     float: none;
@@ -130,10 +129,6 @@ footer {
     text-align: center;
     min-width: 300px;
 	}
-  nav a { 
-  	display: block;
-  	width: 200px;
-  	margin-right: auto;
-  	margin-left: auto;
+	#image-left, #image-right {text-align: center;
   }
-}
+}*/
