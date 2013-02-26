@@ -32,7 +32,6 @@ nav li {
 	display: inline-block; 
 	margin: auto; 
 	font-size: 16pt;
-	font-weight: bold;
 	/* For IE 7 zoom: 1; *display: inline; */
 	}
 nav a {
