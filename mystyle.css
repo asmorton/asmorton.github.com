@@ -103,10 +103,6 @@ img {
   max-width: 100%;
   border: 1px solid;
   opacity: 100%;
-    -moz-transition-duration: 2s; /* firefox */
-    -webkit-transition-duration: 2s; /* chrome, safari */
-    -o-transition-duration: 2s; /* opera */
-    -ms-transition-duration: 2s; /* ie 9 */
 }
 /* img:hover {
    width: 600px;
