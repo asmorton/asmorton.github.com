@@ -140,7 +140,7 @@ body:after {
     visibility: hidden;
 }
 
-@media all and (max-width: 890px) {
+@media screen and (max-width: 890px) {
 	
 	nav li {
 		display:block;
@@ -153,10 +153,25 @@ body:after {
   }
 }
 
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+  footer {
+    float: none;
+    width: auto;
+	}
+h1 {text-indent: 0px;
+	}
+  
+  #main, #sidebar {
+  	float: none;
+  	width: auto;
+  	display: block;
+  	margin: auto;
+  	}
+}
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-
+@media screen and (max-width: 700px) {
   body,
   footer {
     float: none;
