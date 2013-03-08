@@ -140,7 +140,7 @@ body:after {
     visibility: hidden;
 }
 
-@media screen and (max-width: 900px) {
+@media all and (max-width: 890px) {
 	
 	nav li {
 		display:block;
@@ -154,7 +154,7 @@ body:after {
 }
 
 
-@media screen and (max-width: 700px) {
+@media all and (max-width: 700px) {
 
 
   body,
