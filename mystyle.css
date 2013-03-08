@@ -31,16 +31,16 @@ nav {
 nav li {
 	display: inline-block; 
 	margin: auto; 
-	font-size: 16pt;
+	font-size: 14pt;
 	/* For IE 7 zoom: 1; *display: inline; */
 	}
 
 nav a {
 	text-decoration: none; 
 	background-color: #d3d3d3; 
-	margin: 4px 4px;
-	width: 200px; 
-	min-width: 200px;
+	margin: 6px 6px;
+	width: 175px; 
+	min-width: 175px;
 	display: block; 
 	border-right: solid 2px #696969; 
 	/* For IE 7 zoom: 1; *display: inline; */
@@ -68,11 +68,12 @@ a:visited {
 #main {
 	float: left;
 	font-size: 12pt;
-	width: 40%;
 	color: black;
 	font-family: 'belliza',sans-serif;
 	display: block;
-	margin: 5% 5% 5% 5%;
+	width: 50%;
+	margin: 3%;
+	margin-right: 0;
 	}
 #content {
 	float: left;
@@ -85,13 +86,16 @@ a:visited {
 	}
 #sidebar {
 		float:right;
-		width: 30%;
-		padding:10px;
-		border: 1px solid;
-		margin: 4% 4% 4% 4%;
+		width: 35%;
+		margin: 3%;	
+		margin-left: 0;
+		font-family: 'belliza',sans-serif;
+  		font-size: 12pt;
+  		text-align: center;
 		}
 img {
   max-width: 100%;
+  border: 1px solid;
 }
 body:after {
     content: ".";
@@ -122,14 +126,21 @@ footer {
 	border: solid 1px #000000;
 	/* For Safari border: 0px; */
 	}
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 700px) {
+
   body,
   footer {
     float: none;
     width: auto;
     text-align: center;
-    min-width: 300px;
+    min-width: 400px
 	}
+  #main, #sidebar {
+  	float: none;
+  	width: auto;
+  	display: block;
+  	margin: auto;
+  	}
   nav a { 
   	display: block;
   	width: 200px;
