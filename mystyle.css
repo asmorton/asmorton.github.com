@@ -7,10 +7,10 @@ html {
 	}
 body {
 	background-color: white;
-	opacity: 0.95;  
+	opacity: 0.98;  
 	width:85%; 
 	margin: 5% auto;
-	text-align: justify;
+	text-align: left;
 	padding:25px 25px 25px 25px;
 	max-width: 1000px;
 	}
@@ -62,6 +62,10 @@ ul {
 li {
 	font-size: 12pt; color: black; font-family: 'belliza',sans-serif; 
 	}
+ul.bibliography li {
+	text-indent: -2em;
+	padding-left: 2em;
+	} 
 a:link {
 	color:#000000;} /* unvisited link */
 a:hover,a:active {background-color: #f5f5f5}
@@ -96,8 +100,19 @@ a:visited {
   		line-height:18px;
 		}
 img {
-  max-width: 100%;
+  width: 100%;
   border: 1px solid;
+  opacity: 100%;
+    -moz-transition-duration: 2s; /* firefox */
+    -webkit-transition-duration: 2s; /* chrome, safari */
+    -o-transition-duration: 2s; /* opera */
+    -ms-transition-duration: 2s; /* ie 9 */
+}
+/* img:hover {
+   width: 600px;
+   height: relative; 
+   margin: auto;
+   vertical-align: middle; */
 }
 blockquote {font-style: italic;}
 #line-separator {
@@ -122,21 +137,33 @@ body:after {
     display: block;
     height: 0;
     clear: both;
-    visibility: hidden;}
+    visibility: hidden;
+}
+
+@media screen and (max-width: 900px) {
+	
+	nav li {
+		display:block;
+		padding: 0;
+	}
+	
+	nav a { 
+  	width: 200px;
+  	margin: 6px 6px;
+  }
+}
+
+
 @media screen and (max-width: 700px) {
+
 
   body,
   footer {
     float: none;
     width: auto;
-    text-align: center;
-    min-width: 400px;
-    text-indent: 0px;
 	}
-	
-  nav {
-  margin: 6px;
-  }	
+h1 {text-indent: 0px;
+	}
   
   #main, #sidebar {
   	float: none;
@@ -144,9 +171,5 @@ body:after {
   	display: block;
   	margin: auto;
   	}
-  nav a { 
-  	display: block;
-  	width: 200px;
-  	margin: 6px 6px;
-  }
+
 }
