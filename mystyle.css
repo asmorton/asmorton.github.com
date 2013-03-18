@@ -60,7 +60,7 @@ ul {
 	padding:0;
 	}
 li {
-	font-size: 14pt; color: black; font-family: 'belliza',sans-serif; 
+	font-size: 13pt; color: black; font-family: 'belliza',sans-serif; 
 	}
 ul.bibliography li {
 	text-indent: -2em;
@@ -73,7 +73,7 @@ a:visited {
 	color:#708090;} /* visited link */
 #main {
 	float: left;
-	font-size: 14pt;
+	font-size: 13pt;
 	color: black;
 	font-family: 'belliza',sans-serif;
 	display: block;
