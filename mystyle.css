@@ -111,7 +111,8 @@ img {
    margin: auto;
    vertical-align: middle; */
 }
-blockquote {font-style: italic;}
+blockquote {font-style: italic;
+            font-family: 'Belleza',sans-serif;}
 #line-separator {
 	height:1px;
 	color: black;
@@ -126,6 +127,7 @@ blockquote {font-style: italic;}
 	margin: 0px;
 	line-height: 20px;
 	position: relative;
+	bottom: -150;
 	opacity: 0.8;
 	clear: both;}
 	
