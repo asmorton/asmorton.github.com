@@ -25,7 +25,7 @@ h2 {
 	}
 h3 {
 	font-size: 20pt; color: #686635; font-family: 'Junge', serif;
-	text-indent: 0px;}
+	text-indent: 0px; padding: 0;}
 #line-separator {
 	height:1px;
 	color: #B88B5B;
@@ -67,9 +67,9 @@ a:link {
 	color:#686635; /* unvisited link */
 	text-decoration: none;
 	}
-a:hover,a:active {color: #AB6C56}
-a:visited {
-	color:#C1BF87;} /* visited link */
+a:hover,a:active {color: #AB6C56;}
+a:visited { color:#C1BF87;} /* visited link */
+blockquote {color: #7C4C42;}
 #main {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
