@@ -75,6 +75,7 @@ blockquote {color: #7C4C424;}
     font-size: 16pt;
     text-align: left;
     color: #686635;
+    margin-left: 20px;
     }
 #main p {
     vertical-align: middle;
@@ -116,20 +117,21 @@ img {max-width: 30%;
 #content-left {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
-    text-align: justify;
+    text-align: left;
     color: #7C4C42;
     float: left;
     margin-left: 8%;
-    max-width: 34%;
+    width: 40%;
     }
+#content-left img { max-width: 100%; margin: auto; padding: 30px 80px 10px 0px;}
 #content-right {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
     color: #7C4C42; 
-    text-align: justify;
+    text-align: left;
     float: right;
     margin-right: 8%;
-    max-width: 34%
+    width: 40%
     }
 #footer {
 	font-size: 10pt;
