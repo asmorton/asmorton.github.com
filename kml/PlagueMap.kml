@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Plague Map</name>
+  <description><![CDATA[]]></description>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href></href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73FF0000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style15">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>730000FF</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>540: Pelusium </name>
+    <description><![CDATA[+31° 2' 36.00", +32° 32' 24.00"<br><div><br>&nbsp;</div><div>Proc.&nbsp;</div><div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>32.540001,31.043333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>542: Constantinople</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>28.980495,41.014133,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>542, 560, 592, 598: Antioch</name>
+    <description><![CDATA[Turkey<br>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>36.176189,36.200150,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>542, 560, 598: Syria</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>38.276367,34.957996,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>612, 716: Alexandria</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>29.948730,31.212801,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>540, 598, 560: Palestine</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            35.013428,32.481964,0.000000
+            34.870605,32.565334,0.000000
+            34.541016,31.634676,0.000000
+            35.386963,31.372398,0.000000
+            35.529785,32.444885,0.000000
+            35.013428,32.481964,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>673: Palestine</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            34.892578,32.509762,0.000000
+            35.507812,32.444885,0.000000
+            35.386963,31.428663,0.000000
+            34.552002,31.672083,0.000000
+            34.892578,32.509762,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>716: Syria</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>38.430176,35.012001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>590: Rome</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>12.524414,41.836826,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>551, 582: Auvergne</name>
+    <description><![CDATA[France<br>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>3.344854,45.703270,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>551, 582: Arles</name>
+    <description><![CDATA[France<br><a href="http://maps.google.com/maps/place?ftid=0x12b672075d4814cd:0x40819a5fd970550&amp;q=Arles,+France&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=Ugq_TcClOpn2MNG75boK&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=43.676651,4.627804&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>4.627804,43.676651,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>590: Thrace</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>25.874371,40.848209,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>590: Avignon</name>
+    <description><![CDATA[France<br><a href="http://maps.google.com/maps/place?ftid=0x12b5eb8739bc9d07:0xe6429b6efa1d7b36&amp;q=avignon&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=1wq_TevjHYHYNf6n_I4J&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=43.948613,4.805967&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>4.805967,43.948612,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>598: Marseilles</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>5.373688,43.301197,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>590: Viviers</name>
+    <description><![CDATA[France<br><a href="http://maps.google.com/maps/place?ftid=0x12b51239767b58f7:0x4093cafcbeb80c0&amp;q=Viviers,+France&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=TAu_TZWVCo3YNf6x-As&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=44.482408,4.688690&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>4.688690,44.482407,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tours</name>
+    <description><![CDATA[France<br><a href="http://maps.google.com/maps/place?ftid=0x47fcd5b34a979a55:0x40dc8d705388430&amp;q=tours,+France&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=cgu_TbPnI5K0Nv7NjA0&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=47.390294,0.688851&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>0.688851,47.390293,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nantes</name>
+    <description><![CDATA[France<br><a href="http://maps.google.com/maps/place?ftid=0x4805ee81f0a8aead:0x40d37521e0ded30&amp;q=Nantes,+France&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=gQu_TfXnIqbaM9WovAQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=47.216842,-1.556744&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-1.556744,47.216843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>610, 642: China</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>118.652344,26.824072,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>687, 697: Constantinople </name>
+    <description><![CDATA[Turkey<br>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>28.976959,41.005268,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>566: Liguria</name>
+    <description><![CDATA[Italy<br>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>8.528161,44.419659,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>746: Sicily</name>
+    <description><![CDATA[Italy<br>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>14.658782,37.397930,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>542: Earthquake Antioch</name>
+    <description><![CDATA[<div dir="ltr">Evagrius: also, earthquake 588<br></div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>36.176189,36.200150,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
