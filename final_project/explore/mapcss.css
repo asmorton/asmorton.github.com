@@ -1,0 +1,147 @@
+html {
+	background-color: #696969; 
+	background-image:url(medmaploc.png); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-attachment: fixed;
+	height: 100%;
+	}
+body {
+	background-color: white;
+	opacity: .92;  
+	width:85%; 
+	margin: 5% auto;
+	text-align: justify;
+	padding:25px 25px 25px 25px;
+	max-width: 1000px;
+	height: 125%;
+	}
+
+h1 {
+	font-size: 40pt; color: #686635; font-family: 'Old Standard TT', sans-serif;
+	text-indent:0px;
+	}
+h2 {
+	font-size: 30pt; color: #686635; font-family: 'Junge', sans-serif;
+	text-indent: 50px; 
+	}
+h3 {
+	font-size: 20pt; color: #686635; font-family: 'Junge', serif;
+	text-indent: 0px; padding: 0;}
+#line-separator {
+	height:1px;
+	color: #B88B5B;
+	border-bottom:1px solid #B88B5B;
+	}
+nav {
+    display: inline;
+    font-family: 'Belleza',sans-serif;
+    }
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin: auto; 
+	font-size: 16pt;
+	padding: 5px 20px 5px 40px 
+    } 
+nav ul {
+	text-align: center; 
+	line-height: 35px;
+	opacity: 100;
+	}
+nav a {
+    width: 100px;
+    min-width: 90px;
+    margin: 5px 5px 5px 5px;
+    }
+ul {
+	list-style-type:none;
+	text-decoration: none;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	}
+ul.bibliography li {
+	text-indent: -2em;
+	padding-left: 2em;
+	} 
+a:link {
+	color:#686635; /* unvisited link */
+	text-decoration: none;
+	}
+a:hover,a:active {color: #AB6C56;}
+a:visited { color:#C1BF87;} /* visited link */
+blockquote {color: #7C4C424;}
+#main {
+    font-family: 'Belleza',sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    color: #686635;
+    }
+#main p {
+    vertical-align: middle;
+    padding: 25px;
+    }
+#slideshow {
+    font-family: 'Belleza', sans-serif;
+    text-align: left;
+    font-size: 16pt;
+    width: 60%;
+    height: 40%;
+    }
+#slideshow menu1 {
+    background-image: url:('texts.jpg');
+    }
+#slideshow menu2 {
+    background-image: url:('plague.jpg');
+    }
+#slideshow menu3 {
+    background-image: url:('map.jpg');
+    }
+#slide {
+    margin: auto;
+    width: 100%;
+    }
+#images img {max-width: 70%;
+    margin-left: 14%; margin-right: 15%;
+    padding: 0 0 5px 0;}
+img {max-width: 30%;
+    padding: 10px 5px 5px 5px;
+    margin-left: 30%;}
+#quote {
+    font-family: 'Junge', serif;
+    font-size: 14pt;
+    margin: auto;
+    color: #7C4C42;
+    text-align: center;
+    }
+#content-left {
+    font-family: 'Belleza',sans-serif;
+    font-size: 16pt;
+    text-align: justify;
+    color: #7C4C42;
+    float: left;
+    margin-left: 8%;
+    max-width: 34%;
+    }
+#content-right {
+    font-family: 'Belleza',sans-serif;
+    font-size: 16pt;
+    color: #7C4C42; 
+    text-align: justify;
+    float: right;
+    margin-right: 8%;
+    max-width: 34%
+    }
+#footer {
+	font-size: 10pt;
+	color: #56552B;
+	text-align: right;
+	padding-right: 10px;
+	margin: 0px;
+	line-height: 20px;
+	position: relative;
+	margin-bottom: -150;
+	clear: both;}
+#map-canvas { height: 100%; width: 100%; margin: auto;}
+#map-canvas img{max-width:none}
