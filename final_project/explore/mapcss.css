@@ -143,5 +143,7 @@ img {max-width: 30%;
 	position: relative;
 	margin-bottom: -150;
 	clear: both;}
-#map-canvas { height: 100%; width: 100%; margin: auto;}
+#map-canvas { height: 48%; width: 100%; margin: auto;}
 #map-canvas img{max-width:none}
+#plague-canvas {height: 48%; width: 100%; margin: auto;}
+#plague-canvas img{max-width:none;}

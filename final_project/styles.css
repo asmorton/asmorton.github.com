@@ -24,7 +24,7 @@ h2 {
 	text-indent: 50px; 
 	}
 h3 {
-	font-size: 20pt; color: #7C4C42; font-family: 'Junge', serif;
+	font-size: 20pt; color: #686635; font-family: 'Junge', serif;
 	text-indent: 0px; padding: 0;}
 #line-separator {
 	height:1px;
@@ -64,17 +64,18 @@ ul.bibliography li {
 	padding-left: 2em;
 	} 
 a:link {
-	color:#686635; /* unvisited link */
+	color:#56552B; /* unvisited link */
 	text-decoration: none;
 	}
-a:hover,a:active {color: #686635;}
-a:visited { color:#7C4C42;} /*visited link*/
+a:hover,a:active {color: #56552B;
+    text-decoration:underline;}
+a:visited { color:#686635;} /*visited link*/
 blockquote {color: #7C4C42;}
 #main {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
     text-align: left;
-    color: #686635;
+    color:#686635;
     margin-left: 20px;
     }
 #main p {
@@ -98,7 +99,7 @@ blockquote {color: #7C4C42;}
     font-family: 'Belleza',sans-serif;
     font-size: 16pt; margin: auto;}
 .slideshow div { 
-    background-color: #817D40; 
+    background-color: #918c41; 
     width: 100%; 
     height:100%;}
 .slideshow img {
@@ -116,12 +117,12 @@ blockquote {color: #7C4C42;}
     margin-right: 0px;
     margin-top: 0px;}
 .slideshow a:hover, a:active {
-    color: #686635;}
+    color: #56552B;}
 .slideshow a:link, a:visited {
     color: rgba(129,78,65,100);}
 .slideshow h3 {
     color: #dfcd66; 
-    font-size: 30pt; 
+    font-size: 27pt; 
     padding-left: 30px; 
     padding-top: 0px;
     padding-bottom: 0px;}
@@ -144,7 +145,7 @@ img {width: 30%;
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
     text-align: left;
-    color: #7C4C42;
+    color: #56552B;
     float: left;
     width: 40%;
     margin-left: 10%;
@@ -153,7 +154,7 @@ img {width: 30%;
 #content-right {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
-    color: #7C4C42; 
+    color: #56552B; 
     text-align: left;
     float: right;
     margin-right: 7%;
