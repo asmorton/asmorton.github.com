@@ -68,7 +68,7 @@ a:link {
 	text-decoration: none;
 	}
 a:hover,a:active {color: #686635;}
-a:visited { color:#7C4C42;} /* visited link */
+/*a:visited { color:#7C4C42;} visited link */
 blockquote {color: #7C4C42;}
 #main {
     font-family: 'Belleza',sans-serif;
