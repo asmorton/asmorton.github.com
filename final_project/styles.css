@@ -24,7 +24,7 @@ h2 {
 	text-indent: 50px; 
 	}
 h3 {
-	font-size: 20pt; color: #686635; font-family: 'Junge', serif;
+	font-size: 20pt; color: #7C4C42; font-family: 'Junge', serif;
 	text-indent: 0px; padding: 0;}
 #line-separator {
 	height:1px;
@@ -68,13 +68,13 @@ a:link {
 	text-decoration: none;
 	}
 a:hover,a:active {color: #686635;}
-/*a:visited { color:#7C4C42;} visited link */
+a:visited { color:#7C4C42;} /*visited link*/
 blockquote {color: #7C4C42;}
 #main {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
     text-align: left;
-    color: #7C4C42;
+    color: #686635;
     margin-left: 20px;
     }
 #main p {
@@ -116,7 +116,7 @@ blockquote {color: #7C4C42;}
     margin-right: 0px;
     margin-top: 0px;}
 .slideshow a:hover, a:active {
-    color:#686635;}
+    color: #686635;}
 .slideshow a:link, a:visited {
     color: rgba(129,78,65,100);}
 .slideshow h3 {
@@ -159,7 +159,6 @@ img {width: 30%;
     margin-right: 7%;
     width: 40%
     }
-#content-left a, #content-right a:visited {color:#686635;}
 #footer {
 	font-size: 10pt;
 	color: #56552B;
