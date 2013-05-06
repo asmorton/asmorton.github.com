@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Beyond Thucydides: an interactive exploration of the Peloponnesian War</name>
+  <description><![CDATA[A geographic guide to the first 19 years of the Peloponnesian War and the Sicilian Expedition. Numbers in parentheses are citations from Thucydides' History of the Peloponnesian War. The link to a full-text translation of Thucydides' history can be found at the top of the Athenian entry.]]></description>
+  <NetworkLink>
+    <name>Beyond Thucydides: an interactive exploration of the Peloponnesian War</name>
+    <Link>
+      <href>http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;vps=2&amp;jsv=300a&amp;oe=UTF8&amp;msa=0&amp;msid=100384818882646746846.00044e493d5d25968410d&amp;output=kml</href>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>
