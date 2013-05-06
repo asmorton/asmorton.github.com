@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Ancient Biochemical Warfare</name>
+  <description><![CDATA[]]></description>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://img52.imageshack.us/img52/4917/gasicon.jpg</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://img593.imageshack.us/img593/401/bubon.jpg</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://img593.imageshack.us/img593/401/bubon.jpg</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://img818.imageshack.us/img818/8226/arrowh.jpg</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://img560.imageshack.us/img560/443/safetysignpoison.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://img804.imageshack.us/img804/2740/fireiconnosmoke.jpg</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://img560.imageshack.us/img560/443/safetysignpoison.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://img804.imageshack.us/img804/2740/fireiconnosmoke.jpg</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://img560.imageshack.us/img560/443/safetysignpoison.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Plataea</name>
+    <description><![CDATA[<div dir="ltr">Thucydides, 429<br><br>Spartans and Thebans burn sulfur and pitch at the city walls, creating sulfur dioxide gas.</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>23.266518,38.211746,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Thebes</name>
+    <description><![CDATA[<div dir="ltr">Sophocles, <i>Oedipos Tyrannos</i><br>Aeschylus, <i>Seven Against Thebes</i><br><br>The punishment of the gods - first, the city is punished by plague. Next, the seven successors besiege the city and die at the gates.&nbsp;</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>23.317602,38.319759,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Athens</name>
+    <description><![CDATA[<div dir="ltr">Thucydides 430-429<br><br>The city is struck by a plague that ravishes the citizens inside the walls. The Spartans, who invaded the outlying fields yearly, were blamed for the poisoning. </div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>23.716646,37.979179,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Troy</name>
+    <description><![CDATA[<div dir="ltr">Homer, <i>Iliad</i></div><div dir="ltr"><i><br></i></div><div dir="ltr">Apollo the plague god rains down arrows of disease on the besieging Greeks.&nbsp;</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>26.238829,39.957386,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Delos</name>
+    <description><![CDATA[<div dir="ltr">6th Century, potentially legend.<br><br>Solon, the great Athenian lawgiver, leads a force </div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>25.230413,37.407532,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Delion</name>
+    <description><![CDATA[<div dir="ltr">or Delium, <br><br>A bellows, attached to a iron-plated hollow wooden beam, blew fire from a burning cauldron out an iron tube and onto the fortified wooden walls of the Athenian camp</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>23.670731,38.333038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kirra</name>
+    <description><![CDATA[<div dir="ltr">585 BC - The Sacred War<br><br>Cleisthenes poisons the water entering the fortified city of Kirrha, winning the war for those who wanted free access to Delphi</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>22.445204,38.430958,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lecythus</name>
+    <description><![CDATA[<div dir="ltr">Peloponnesian War, 428/7<br><br>Brasidas brings his flamethrower against the wooden fort. <br></div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>23.903849,39.985508,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Syracuse</name>
+    <description><![CDATA[<font face="arial">413 BC</font><div style="font-family:arial">&nbsp;</div><div style="font-family:arial">Athenian soldiers cut off Syracusan water supplies.&nbsp;<span style="font-family:arial, sans-serif">Syracusan ships surround the harbor, trapping the Athenians. The ensuing naval battle turns into a rout. The Athenians lose their fleet and flee inland on foot. (7.70-72) They</span>&nbsp;kill themselves by desperately drinking water poisoned with dead bodies.&nbsp;</div><div style="font-family:arial"><br>&nbsp;</div><div><div><font face="arial, sans-serif"><br></font></div></div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>14.985618,37.063023,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

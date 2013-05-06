@@ -10,7 +10,7 @@
 <title>Mapping Plague</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>   
-<script type="text/javascript"> $(document).ready(function(){$('.slideshow').cycle({fx:'scrollLeft', timeout:0, next: '#arrow', prevNextEvent: 'click.cycle',});});
+<script type="text/javascript"> $(document).ready(function(){$('.slideshow').cycle({fx:'scrollLeft', timeout:0, next: '#arrow', prevNextEvent: 'click.cycle', }); $('.slideshow').cycle({fx:'scrollRight', timeout:0, prev: '#arrowL', prevNextEvent:'click.cycle',});});
 </script>
 </head>
 <body>
@@ -37,7 +37,7 @@
 <ul>
     <li><a href="http://asmorton.github.io/final_project/sources#ByzantineSources">Byzantine</a></li>
     <li><a href="http://asmorton.github.io/final_project/sources#RomanSources">Roman</a></li>
-    <li><a href="http://asmorton.github.io/final_project/sources#NorthAfrica">North Africa</a></li>
+    <li><a href="http://asmorton.github.io/final_project/sources#NorthAfrica">North African</a></li>
     <li><a href="http://asmorton.github.io/final_project/sources#Missionaries">Missionaries</a></li>
 </ul>
 </div>
@@ -61,9 +61,11 @@
 </div>
 </div>
 </div>
+<div id="arrowL">
+    <img src="arrowleft.jpg"/></div>
 <div id="arrow">
     <img src="arrow.jpg"/></div>
-</div>
+<div id="contentwrapper">
 <div id="content-left">
 <h3><a href="http://asmorton.github.com/final_project/explore">Explore</a></h3>
 <p>Use the interactive maps to examine the spread of the plague over time. Read text sources to track plague language.</p>
@@ -71,6 +73,7 @@
 <div id="content-right">
 <h3><a href="http://asmorton.github.com/final_project/explore">Tools</a></h3>
 <p>Jump in! Use mapping tools to add your own points, or contribute your own data about earlier or later plagues.</p>
+</div>
 </div>
 <div id="footer"> 
 <div id="line-separator"></div>

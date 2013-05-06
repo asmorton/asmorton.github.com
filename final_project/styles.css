@@ -67,7 +67,7 @@ a:link {
 	color:#686635; /* unvisited link */
 	text-decoration: none;
 	}
-a:hover,a:active {color: #AB6C56;}
+a:hover,a:active {color: #686635;}
 a:visited { color:#7C4C42;} /* visited link */
 blockquote {color: #7C4C42;}
 #main {
@@ -81,15 +81,18 @@ blockquote {color: #7C4C42;}
     vertical-align: middle;
     padding: 25px;
     }
-#arrow {margin: auto; width:20%;}
+#arrow {margin: auto; width:20%; float: right;}
+#arrowL {margin: auto; width: 20%; float: left;}
 #slidewrapper {margin: auto; padding-top: 5%;}
 .slideshow {width: 90%; height:350px; font-family: 'Belleza',sans-serif;
     font-size: 16pt; margin: auto;}
 .slideshow div { background-color: #817D40; width: 100%; height:100%;  border: 5px solid ##B88B5B;}
-.slideshow img {float: right; width: 55%; padding:0; margin:0;}
-.slideshow ul {font-size: 24pt; padding: 0px; 0px; 0px; 40px; margin-left: 10%; margin-right: 0px;}
+.slideshow img {float: right; width: 55%; height:100%; padding:0; margin:0;}
+.slideshow ul {font-size: 24pt; color:rgba(129, 78, 65, 100%); opacity:100; padding: 0px; 0px; 0px; 40px; margin-left: 10%; margin-right: 0px;}
+.slideshow a:hover, a:active {color:#686635;}
+.slideshow a:link, a:visited {color: rgba(129,78,65,100);}
 .slideshow h3 {color: #dfcd66; font-size: 30pt; padding-left: 30px; padding-top: 10px;}
-#images img {max-width: 70%;
+#images img {width: 70%;
     margin-left: 14%; margin-right: 15%;
     padding: 0 0 5px 0;}
 img {width: 30%;
@@ -102,14 +105,16 @@ img {width: 30%;
     color: #7C4C42;
     text-align: center;
     }
+#contentwrapper {width: 100%;}
 #content-left {
+    clear:both;
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
     text-align: left;
     color: #7C4C42;
     float: left;
-    margin-left: 8%;
     width: 40%;
+    margin-left: 10%;
     }
 #content-left img { max-width: 100%; margin: auto; padding: 50px 100px 5px 0px;}
 #content-right {
@@ -133,4 +138,6 @@ img {width: 30%;
 	margin-bottom: -150;
 	clear: both;}
 #map-canvas { height: 100%; width: 100%; margin: auto;}
-#map-canvas img{max-width:none}
+#map-canvas img{max-width:none;}
+#plague-canvas {height: 100%; width: 100%; margin: auto;}
+#plague-canvas img{max-width:none;}
