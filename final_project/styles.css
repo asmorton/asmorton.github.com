@@ -150,7 +150,7 @@ img {width: 30%;
     width: 40%;
     margin-left: 10%;
     }
-#content-left img { max-width: 100%; margin: auto; padding: 50px 100px 5px 0px;}
+#content-left img {width: 100%; margin: auto; padding: 50px 100px 5px 0px;}
 #content-right {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
