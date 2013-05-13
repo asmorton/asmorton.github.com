@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 70% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCddl_wTex1sAUQxUGXmVx-irC62UmPks0&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(41.007884, 28.968887),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.TERRAIN
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+      }
+             var stylesArray = [
+  {
+    featureType: 'road',
+    elementType: 'labels',
+    stylers: [
+      {visibility: 'off'},
+      // etc...
+    ]
+  },
+  {
+    featureType: '',
+    // etc...
+  }
+]
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"/>
+  </body>
+</html>

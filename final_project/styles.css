@@ -1,6 +1,6 @@
 html {
 	background-color: #696969; 
-	background-image:url(medmaploc.png); 
+	background-image:url(medmaploc1.png); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	background-attachment: fixed;
@@ -24,10 +24,15 @@ h2 {
 	text-indent: 50px; 
 	}
 h3 {
-	font-size: 20pt; color: #686635; font-family: 'Junge', serif;
+	font-size: 20pt; color: #56552B; font-family: 'Junge', serif;
 	text-indent: 0px; padding: 0;}
 #line-separator {
 	height:1px;
+	color: #B88B5B;
+	border-bottom:1px solid #B88B5B;
+	}
+.line-separator {
+    height:1px;
 	color: #B88B5B;
 	border-bottom:1px solid #B88B5B;
 	}
@@ -40,12 +45,13 @@ nav li {
     text-decoration: none;
     margin: auto; 
 	font-size: 16pt;
-	padding: 5px 20px 5px 40px 
+	padding: 5px 40px 5px 40px 
     } 
 nav ul {
 	text-align: center; 
 	line-height: 35px;
 	opacity: 100;
+	padding: 0;
 	}
 nav a {
     width: 100px;
@@ -67,7 +73,7 @@ a:link {
 	color:#56552B; /* unvisited link */
 	text-decoration: none;
 	}
-a:hover,a:active {color: #56552B;
+li a:hover {color: #56552B;
     text-decoration:underline;}
 a:visited { color:#686635;} /*visited link*/
 blockquote {color: #7C4C42;}
@@ -126,6 +132,17 @@ blockquote {color: #7C4C42;}
     padding-left: 30px; 
     padding-top: 0px;
     padding-bottom: 0px;}
+#responsive-image {
+    display: none;
+    width: 100%
+    padding:0px;
+    margin: auto;
+    }
+#responsive-image img{
+    width: 100%;
+    margin: auto;
+    padding-right: 10px;
+    }
 #images img {width: 70%;
     margin-left: 14%; margin-right: 15%;
     padding: 0 0 5px 0;}
@@ -160,17 +177,140 @@ img {width: 30%;
     margin-right: 7%;
     width: 40%
     }
+#content-left a:hover, #content-right a:hover {
+    color: #56552B;
+    text-decoration:underline;}
 #footer {
 	font-size: 10pt;
 	color: #56552B;
-	text-align: right;
+	text-align: center;
 	padding-right: 10px;
 	margin: 0px;
 	line-height: 20px;
 	position: relative;
 	margin-bottom: -150;
 	clear: both;}
+#footer ul li {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;}
+#footer ul li.middle {
+    border-right: 2px solid #B88B5B;
+    border-left: 2px solid #B88B5B;
+    }
 #map-canvas { height: 100%; width: 100%; margin: auto;}
 #map-canvas img{max-width:none;}
 #plague-canvas {height: 100%; width: 100%; margin: auto;}
 #plague-canvas img{max-width:none;}
+
+/*device styles*/
+@media screen and (max-width: 890px) {
+	
+    nav {display: block;
+  	  width: 150px;
+  	  margin: auto;}
+  	nav li {
+  	    padding: 0;}
+  	h3 {text-align: center;}
+  	#content-left, #content-right {
+  	    {text-align: center;
+  	    margin: auto;}
+  	#responsive-image {
+  	    display: inline-block;
+  	}
+    #slidewrapper {
+        display: none;
+    }
+    }
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+  footer {
+    float: none;
+	}
+h1 {text-indent: 0px;
+	}
+  
+  #content-left, #content-right {
+  	float: none;
+  	width: auto;
+  	display: block;
+  	margin: auto;
+  	font-size: 12pt;
+  	}
+  	nav {display: block;
+  	  width: 150px;}
+  	
+  	#responsive-image {
+  	    display: inline-block;
+  	}
+    #slidewrapper {
+        display: none;
+    }
+    #arrow {
+    display: none;}
+    #arrowL {
+    display: none;}
+}
+/* #### tablets ####*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body,
+  footer {
+    float: none;
+    width: auto;
+	}
+h1 {text-indent: 0px;
+	}
+nav {display: block;
+    width: 150px}
+  
+  #content-left, #content-right {
+  	float: none;
+  	width: auto;
+  	display: block;
+  	margin: auto;
+  	font-size: 12pt;
+  	}
+    #responsive-image {
+  	    display: inline-block;
+  	}
+    #slidewrapper {
+        display: none;
+    }
+     #arrow {
+    display: none;}
+    #arrowL {
+    display: none;}
+    }
+    
+@media screen and (max-width: 700px) {
+  body,
+  footer {
+    float: none;
+    width: auto;
+	}
+h1 {text-indent: 0px;
+	}
+  nav {display: block;
+     width: 150px;}
+  
+  #content-left, #content-right {
+  	float: none;
+  	width: auto;
+  	display: block;
+  	margin: auto;
+  	font-size: 12;
+  	text-align: center;
+  	}
+  	#responsive-image {
+  	    display: inline-block;
+  	    }
+    #slidewrapper {
+        display: none;
+    }
+     #arrow {
+    display: none;}
+    #arrowL {
+    display: none;}
+}
+
+

@@ -14,9 +14,8 @@ body {
 	text-align: justify;
 	padding:25px 25px 25px 25px;
 	max-width: 1000px;
-	height: 125%;
+    height: auto;
 	}
-
 h1 {
 	font-size: 40pt; color: #686635; font-family: 'Old Standard TT', sans-serif;
 	text-indent:0px;
@@ -33,6 +32,11 @@ h3 {
 	color: #B88B5B;
 	border-bottom:1px solid #B88B5B;
 	}
+.line-separator {
+    height:1px;
+	color: #B88B5B;
+	border-bottom:1px solid #B88B5B;
+	}
 nav {
     display: inline;
     font-family: 'Belleza',sans-serif;
@@ -42,12 +46,13 @@ nav li {
     text-decoration: none;
     margin: auto; 
 	font-size: 16pt;
-	padding: 5px 20px 5px 40px 
+	padding: 5px 40px 5px 40px 
     } 
 nav ul {
 	text-align: center; 
 	line-height: 35px;
 	opacity: 100;
+	padding: 0;
 	}
 nav a {
     width: 100px;
@@ -136,14 +141,24 @@ img {max-width: 30%;
 #footer {
 	font-size: 10pt;
 	color: #56552B;
-	text-align: right;
+	text-align: center;
 	padding-right: 10px;
 	margin: 0px;
 	line-height: 20px;
 	position: relative;
 	margin-bottom: -150;
-	clear: both;}
-#map-canvas { height: 48%; width: 100%; margin: auto;}
+	}
+#footer ul li {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;}
+#footer ul li.middle {
+    border-right: 2px solid #B88B5B;
+    border-left: 2px solid #B88B5B;
+    }
+#map-canvas { height: 500px; width: 100%; margin: auto; display: block; 
+    margin-top: 40px;
+    margin-bottom: 40px;}
 #map-canvas img{max-width:none}
 #plague-canvas {height: 48%; width: 100%; margin: auto;}
 #plague-canvas img{max-width:none;}
+
