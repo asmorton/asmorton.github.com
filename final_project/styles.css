@@ -121,10 +121,6 @@ blockquote {color: #7C4C42;}
     margin-left: 10%; 
     margin-right: 0px;
     margin-top: 0px;}
-.slideshow a:hover, a:active {
-    color: #56552B;}
-.slideshow a:link{
-    color: rgba(129,78,65,100);}
 .slideshow h3 {
     color: #dfcd66; 
     font-size: 27pt; 
