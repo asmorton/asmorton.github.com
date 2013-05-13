@@ -75,7 +75,6 @@ a:link {
 	}
 li a:hover {color: #56552B;
     text-decoration:underline;}
-a:visited { color:#686635;} /*visited link*/
 blockquote {color: #7C4C42;}
 #main {
     font-family: 'Belleza',sans-serif;
@@ -124,7 +123,7 @@ blockquote {color: #7C4C42;}
     margin-top: 0px;}
 .slideshow a:hover, a:active {
     color: #56552B;}
-.slideshow a:link, a:visited {
+.slideshow a:link{
     color: rgba(129,78,65,100);}
 .slideshow h3 {
     color: #dfcd66; 

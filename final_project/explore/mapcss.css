@@ -76,8 +76,7 @@ a:link {
 	}
 li a:hover {color: #56552B;
     text-decoration:underline;}
-a:visited { color:#7C4C42;} /*visited link*/
-blockquote {color: #7C4C424;}
+blockquote {color: #7C4C42;}
 #main {
     font-family: 'Belleza',sans-serif;
     font-size: 16pt;
