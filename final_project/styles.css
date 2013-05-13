@@ -70,7 +70,7 @@ ul.bibliography li {
 	padding-left: 2em;
 	} 
 a:link {
-	color:#56552B; /* unvisited link */
+	color:#7C4C42; /* unvisited link */
 	text-decoration: none;
 	}
 li a:hover {color: #56552B;
@@ -125,7 +125,7 @@ blockquote {color: #7C4C42;}
 .slideshow a:hover, a:active {
     color: #56552B;}
 .slideshow a:link, a:visited {
-    color: rgba(129,78,65,100);}
+    color: #7C4C42;}
 .slideshow h3 {
     color: #dfcd66; 
     font-size: 27pt; 
