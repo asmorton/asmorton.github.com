@@ -71,11 +71,12 @@ ul.bibliography li {
 	padding-left: 2em;
 	} 
 a:link {
-	color:#686635; /* unvisited link */
+	color:#7C4C42; /* unvisited link */
 	text-decoration: none;
 	}
-a:hover,a:active {color: #AB6C56;}
-a:visited { color:#C1BF87;} /* visited link */
+li a:hover {color: #56552B;
+    text-decoration:underline;}
+a:visited { color:#7C4C42;} /*visited link*/
 blockquote {color: #7C4C424;}
 #main {
     font-family: 'Belleza',sans-serif;
